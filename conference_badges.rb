@@ -24,7 +24,7 @@ def printer(results)
       puts x
    end
     
-    assign_rooms(results0.each do |x|
+    assign_rooms(results).each do |x|
       puts x 
     end
 end
