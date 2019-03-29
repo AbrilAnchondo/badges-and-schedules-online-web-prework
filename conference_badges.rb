@@ -21,7 +21,7 @@ end
 
 def printer(results)
    batch_badge_creator(results).each do |x|
-    puts x
+    puts x.chomp
     end
 end
 
